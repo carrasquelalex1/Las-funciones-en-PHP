@@ -141,4 +141,4 @@ echo "El ahorro para : " . $otroAhorro . "<br>"; // Mostrará "Otra área: 21"
 Licencia
 Este proyecto está licenciado bajo la MIT License.
 
-Copyright (c) 2023 AlexanderJosé Carrasquel Burgos
+Copyright (c) 2025 AlexanderJosé Carrasquel Burgos
