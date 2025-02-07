@@ -40,10 +40,10 @@ saludar: El nombre de la función. Debe ser descriptivo y seguir las convencione
 
 { ... }: El cuerpo de la función. Aquí va el código que se ejecutará cuando llamemos a la función.
 
-Llamada a una Función
+## Llamada a una Función
 Para ejecutar el código dentro de una función, necesitamos llamarla. Esto se hace escribiendo el nombre de la función seguido de paréntesis () y, si la función requiere parámetros, pasando los valores correspondientes entre los paréntesis.
 
-Parámetros de una Función
+## Parámetros de una Función
 Como vimos en el ejemplo anterior, las funciones pueden aceptar parámetros. Los parámetros son como variables que le damos a la función para que pueda trabajar con ellas.
 
 Parámetros Requeridos
