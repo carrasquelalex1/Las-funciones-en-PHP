@@ -48,11 +48,11 @@ Para ejecutar el código dentro de una función, necesitamos llamarla. Esto se h
 
 Como vimos en el ejemplo anterior, las funciones pueden aceptar parámetros. Los parámetros son como variables que le damos a la función para que pueda trabajar con ellas.
 
-# Parámetros Requeridos
+## Parámetros Requeridos
 
 Son los parámetros que la función debe recibir para funcionar correctamente. Si no se proporcionan al llamar a la función, PHP generalmente generará un error.
 
-# Parámetros Opcionales
+## Parámetros Opcionales
 
 Podemos hacer que un parámetro sea opcional asignándole un valor por defecto en la definición de la función. Si no se proporciona un valor al llamar a la función, se usará el valor por defecto.
 
@@ -63,7 +63,7 @@ function saludar($nombre, $saludo = "Hola") {
 saludar("Alexander"); // Mostrará "Hola, Alexander!" (usa el valor por defecto para $saludo)
 saludar("Gabriela", "Buenos días"); // Mostrará "Buenos días, Ana!"
 
-# Múltiples Parámetros
+## Múltiples Parámetros
 Las funciones pueden aceptar varios parámetros. Simplemente sepáralos por comas en la definición de la función y al llamarla.
 
 function sumar($a, $b) {
@@ -87,7 +87,7 @@ Si una función no tiene una declaración return, retornará NULL por defecto.
 ## Alcance de las Variables
 El "alcance" de una variable se refiere a las partes del código donde esa variable es accesible (donde se puede usar). En PHP, hay principalmente dos tipos de alcance:
 
-# Variables Locales
+## Variables Locales
 Una variable definida dentro de una función es una variable local. Solo se puede acceder a ella dentro de esa función. No se puede acceder a ella desde fuera de la función.
 
 function miFuncion() {
@@ -99,7 +99,7 @@ miFuncion(); // Mostrará "Soy local"
 
 // echo $variableLocal; // Esto causaría un error porque $variableLocal no está definida fuera de la función
 
-# Variables Globales
+## Variables Globales
 Una variable definida fuera de cualquier función es una variable global. Por defecto, no se puede acceder a una variable global directamente dentro de una función. Para usar una variable global dentro de una función, debes declararla como global dentro de la función.
 
 $variableGlobal = "Soy global";
