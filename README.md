@@ -87,7 +87,7 @@ Si una función no tiene una declaración return, retornará NULL por defecto.
 ## Alcance de las Variables
 El "alcance" de una variable se refiere a las partes del código donde esa variable es accesible (donde se puede usar). En PHP, hay principalmente dos tipos de alcance:
 
-## Variables Locales
+### Variables Locales
 Una variable definida dentro de una función es una variable local. Solo se puede acceder a ella dentro de esa función. No se puede acceder a ella desde fuera de la función.
 
 function miFuncion() {
@@ -99,7 +99,7 @@ miFuncion(); // Mostrará "Soy local"
 
 // echo $variableLocal; // Esto causaría un error porque $variableLocal no está definida fuera de la función
 
-## Variables Globales
+### Variables Globales
 Una variable definida fuera de cualquier función es una variable global. Por defecto, no se puede acceder a una variable global directamente dentro de una función. Para usar una variable global dentro de una función, debes declararla como global dentro de la función.
 
 $variableGlobal = "Soy global";
