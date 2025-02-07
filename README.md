@@ -117,7 +117,7 @@ Importante sobre global: El uso excesivo de variables globales puede hacer que e
 ## Ejemplo Completo
 Aquí tienes un ejemplo que combina varios de los conceptos que hemos cubierto:
 
-<?php
+
 // Función para calcular el ahorro de Alexander al cabo de 30 días cada dia ahorra 5 monedas
 function calcularAhorro($unidades, $dias) {
   $ahorro = $unidades * $dias;
@@ -139,7 +139,7 @@ mostrarAhorri(5, 30); // Mostrará "El ahorro luedo de 30 días es: 150 unidades
 
 $otroAhorro = calcularAhorro(5, 20);
 echo "El ahorro para : " . $otroAhorro . "<br>"; // Mostrará "Otra área: 21"
-?>
+
 
 
 ## Licencia
